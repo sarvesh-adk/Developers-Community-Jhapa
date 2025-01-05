@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { cn } from '@/lib/utils';
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 interface CardProps {
   children: React.ReactNode;
@@ -9,11 +9,11 @@ interface CardProps {
 export function Card({ children, className }: CardProps) {
   return (
     <motion.div
-      whileHover={{ scale: 1.05 }}
-      transition={{ type: 'spring', stiffness: 300 }}
+      whileHover={{ scale: 1.01 }}
+      transition={{ type: "spring", stiffness: 300 }}
       className={cn(
-        'bg-[#d4d4d4] rounded-lg p-6 shadow-lg',
-        'hover:bg-[#999999] hover:shadow-xl transition-colors',
+        "bg-[#eeeeee] rounded-lg p-6 shadow-sm",
+        " hover:shadow transition-colors",
         className
       )}
     >
