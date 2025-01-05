@@ -1,20 +1,20 @@
 // executivesData.js
-import bhaskar from "@/assets/bhaskar.jpg";
-import arjun from "@/assets/arjun.jpg";
-import sarvesh from "@/assets/sarvesh.jpg";
-import prabin from "@/assets/prabin.png";
-import kaushal from "@/assets/kaushal.png";
-import awashar from "@/assets/awashar.png";
-import sohan from "@/assets/sohan.png";
-import hridayadev from "@/assets/hridayadev.png";
-import samir from "@/assets/samir.png";
-import rabin from "@/assets/rabin.png";
-import piyush from "@/assets/piyush.png";
-import subham from "@/assets/subham.png";
-import alwin from "@/assets/alwin.png";
-import anisha from "@/assets/anisha.png";
-import namita from "@/assets/namita.jpg";
-import radhika from "@/assets/radhika.png";
+import bhaskar from "@/assets/members/bhaskar.jpg";
+import arjun from "@/assets/members/arjun.jpg";
+import sarvesh from "@/assets/members/sarvesh.jpg";
+import prabin from "@/assets/members/prabin.png";
+import kaushal from "@/assets/members/kaushal.png";
+import awashar from "@/assets/members/awashar.png";
+import sohan from "@/assets/members/sohan.png";
+import hridayadev from "@/assets/members/hridayadev.png";
+import samir from "@/assets/members/samir.png";
+import rabin from "@/assets/members/rabin.png";
+import piyush from "@/assets/members/piyush.png";
+import subham from "@/assets/members/subham.png";
+import alwin from "@/assets/members/alwin.png";
+import anisha from "@/assets/members/anisha.png";
+import namita from "@/assets/members/namita.jpg";
+import radhika from "@/assets/members/radhika.png";
 
 export const executives = [
   {

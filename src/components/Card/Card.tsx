@@ -12,7 +12,7 @@ export function Card({ children, className }: CardProps) {
       whileHover={{ scale: 1.01 }}
       transition={{ type: "spring", stiffness: 300 }}
       className={cn(
-        "bg-[#eeeeee] rounded-lg p-6 shadow-sm",
+        "bg-white border rounded-lg p-6 shadow-sm",
         " hover:shadow transition-colors",
         className
       )}

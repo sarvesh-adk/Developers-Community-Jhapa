@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "../../assets/logo/logo.png";
 
 export function Welcome() {
   return (
@@ -45,7 +46,7 @@ export function Welcome() {
         {/* Right Section (Logo) */}
         <div className="hidden md:flex items-center justify-center flex-1 w-full md:w-1/3">
           <img
-            src="src/assets/logo/logo.png"
+            src={logo}
             alt="Developer Community Jhapa Logo"
             className="h-80 w-auto"
           />

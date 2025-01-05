@@ -1,7 +1,6 @@
 import { About } from "@/components/sections/About";
-import { Contact } from "@/components/sections/Contact";
-import { Partners } from "@/components/sections/Partners";
-import { Speakers } from "@/components/sections/Speakers";
+// import { Contact } from "@/components/sections/Contact";
+// import { Partners } from "@/components/sections/Partners";
 import { Welcome } from "@/components/sections/Welcome";
 
 const Home = () => {
@@ -9,9 +8,9 @@ const Home = () => {
     <div>
       <Welcome />
       <About />
-      <Speakers />
-      <Partners />
-      <Contact />
+      {/* <Speakers /> */}
+      {/* <Partners /> */}
+      {/* <Contact /> */}
     </div>
   );
 };

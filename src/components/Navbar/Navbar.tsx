@@ -10,8 +10,8 @@ export function Navbar() {
 
   const navItems = [
     { name: "HOME", href: "/" },
-    { name: "TEAM", href: "/team" },
     { name: "SPEAKERS", href: "/speakers" },
+    { name: "TEAM", href: "/team" },
     { name: "PARTNERS", href: "/partners" },
     { name: "CONTACT", href: "/contact" },
   ];
