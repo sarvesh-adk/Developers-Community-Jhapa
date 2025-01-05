@@ -1,18 +1,18 @@
+import Siwakar from "@/assets/speakers/SwikarSharma.jpeg";
+import SiddharthaGhimire from "@/assets/speakers/SiddharthaGhimire.jpg";
+import ArjunTiwari from "@/assets/speakers/ArjunTiwari.png";
 export const speakers = [
   {
     name: "Swikar Sharma",
     role: "Software Engineer | TEDx Speaker | Content Creator",
-    image:
-      "src/assets/speakers/SwikarSharma.jpeg",
+    image:Siwakar
   },
   {
     name: "Siddhartha Ghimire",
     role: "Robotics Engineer | Content Creator",
-    image:
-      "src/assets/speakers/SiddharthaGhimire.jpg",},
+    image:SiddharthaGhimire},
   {
     name: "Arjun Tiwari",
     role: "CEO at Astral TechSoft | Professor",
-    image:
-      "src/assets/speakers/ArjunTiwari.png",  },
+    image:ArjunTiwari },
 ];
