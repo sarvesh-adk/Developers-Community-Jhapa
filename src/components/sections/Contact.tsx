@@ -53,14 +53,14 @@ export function Contact() {
             <div className="flex items-center space-x-4">
               <Globe className="h-5 w-5" />
               <a href="https://jhapa.dev" className="hover:underline">
-                dcj.org.np
+              jhapa.dev
               </a>
             </div>
             
             <div className="flex items-center space-x-4">
               <Mail className="h-5 w-5" />
               <a href="mailto:mail@jhapa.dev" className="hover:underline">
-                contact@dcj.org.np
+              mail@jhapa.dev
               </a>
             </div>
             
