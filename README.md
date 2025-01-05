@@ -33,7 +33,7 @@ To build a thriving tech ecosystem in Jhapa district where everyone has access t
 
 ## Get In Touch
 Feel free to reach out to us for any inquiries or collaboration opportunities:
-- Email: [contact@devcomjhapa.com](mailto:mail@jhapa.dev)
+- Email: [mail@jhapa.dev](mailto:mail@jhapa.dev)
 - Social Media: [Facebook](https://facebook.com/jhapa.dev), [LinkedIn](https://linkedin.com/company/jhapa-dev), [Instagram](https://instagram.com/jhapa.dev)
 
 ## Contribute
