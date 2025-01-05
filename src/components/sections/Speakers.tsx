@@ -4,19 +4,19 @@ import { Speaker } from '@/components/Speaker/Speaker';
 
 const speakers = [
   {
-    name: 'Sarah Wilson',
-    role: 'Modern Web Development',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop'
+    name: 'Swikar Sharma',
+    role: 'Software Engineer | TEDx Speaker | Content Creator',
+    image: 'https://media.licdn.com/dms/image/v2/D5622AQGrewpQBj8ESA/feedshare-shrink_800/feedshare-shrink_800/0/1722245215331?e=2147483647&v=beta&t=wOQyKBIcjwvVGrNsE4_pSsCsO7ccOZstxuHYkYQH1FM'
   },
   {
-    name: 'David Chen',
-    role: 'AI in Practice',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop'
+    name: 'Siddhartha Ghimire',
+    role: 'Robotics Engineer | Content Creator',
+    image: 'https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/318311092_2157036501134772_6190539364176794189_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=LZOLkf20XZQQ7kNvgHLlUqi&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=A7kgtmiuC7LufmmxiNCxQk4&oh=00_AYBWVUQyMTEc7HML_z4R1ZZUD077ZffDd055Swg7cyDZCA&oe=677FFFAD'
   },
   {
     name: 'Emily Brown',
-    role: 'Cloud Architecture',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop'
+    role: 'CEO at Astral TechSoft | Professor',
+    image: 'https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/393743354_6735167199910986_792954933038599466_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=R03SusRuAEcQ7kNvgG7z37z&_nc_zt=23&_nc_ht=scontent.fixc4-3.fna&_nc_gid=Ah-LfBTiKkqJhjuA3X9i28E&oh=00_AYAFj-udMApXvVBIZ4xTTkXp089GEd1hXjxiN7qo0511Nw&oe=67800996'
   }
 ];
 
