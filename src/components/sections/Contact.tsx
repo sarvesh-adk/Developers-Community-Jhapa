@@ -42,36 +42,36 @@ export function Contact() {
             
             <div className="flex items-center space-x-4">
               <MapPin className="h-5 w-5" />
-              <p>Birtamode, Jhapa, Nepal</p>
+              <p>Mechinagar, Jhapa, Nepal</p>
             </div>
             
             <div className="flex items-center space-x-4">
               <Phone className="h-5 w-5" />
-              <p>+977 123-456-7890</p>
+              <p>+977 9807941122</p>
             </div>
             
             <div className="flex items-center space-x-4">
               <Globe className="h-5 w-5" />
-              <a href="https://dcj.org.np" className="hover:underline">
+              <a href="https://jhapa.dev" className="hover:underline">
                 dcj.org.np
               </a>
             </div>
             
             <div className="flex items-center space-x-4">
               <Mail className="h-5 w-5" />
-              <a href="mailto:contact@dcj.org.np" className="hover:underline">
+              <a href="mailto:mail@jhapa.dev" className="hover:underline">
                 contact@dcj.org.np
               </a>
             </div>
             
             <div className="flex space-x-6 mt-8">
-              <a href="#" className="hover:text-gray-300">
+              <a href="https://github.com/jhapa-dev" className="hover:text-gray-300">
                 <Github className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-300">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-gray-300">
+              <a href="https://www.linkedin.com/company/jhapa-dev" className="hover:text-gray-300">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>

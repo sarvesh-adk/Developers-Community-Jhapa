@@ -11,7 +11,7 @@ interface AutoScrollProps {
 export function AutoScroll({
   children,
   direction = 'left',
-  speed = 20,
+  speed = 55,
   className = '',
 }: AutoScrollProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -21,8 +21,8 @@ export function AutoScroll({
   useEffect(() => {
     if (!isInView) return;
 
-    const scrollWidth = scrollRef.current?.scrollWidth || 0;
-    const viewportWidth = scrollRef.current?.offsetWidth || 0;
+    const scrollWidth = scrollRef.current?.scrollWidth || 10;
+    const viewportWidth = scrollRef.current?.offsetWidth || 10;
     const distance = scrollWidth - viewportWidth;
 
     controls.start({
