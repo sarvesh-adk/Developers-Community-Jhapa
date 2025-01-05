@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom"; // Corrected import
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Teams from "./pages/Teams";
 import Footer from "./components/Footer/Footer";
 import Speakers from "./pages/Speakers";

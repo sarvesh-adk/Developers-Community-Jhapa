@@ -6,7 +6,7 @@ export function About() {
       className="py-20 bg-white text-black w-full max-w-7xl mx-auto flex  px-8"
       id="about"
     >
-      <div className="max-w-7xl w-2/3 mx-auto px-4  space-y-4">
+      <div className="max-w-7xl md:w-2/3 mx-auto px-4  space-y-4">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -27,7 +27,7 @@ export function About() {
           professional growth in the tech community.
         </motion.p>
       </div>
-      <div className="w-1/3 ">{/**/}</div>
+      <div className="w-1/3 hidden md:block ">{/**/}</div>
     </section>
   );
 }

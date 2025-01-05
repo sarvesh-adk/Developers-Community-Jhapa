@@ -6,7 +6,7 @@ import logo from "../../assets/logo/logo.png";
 export function Welcome() {
   return (
     <section
-      className="min-h-[45rem] flex items-center justify-center px-4 py-20 max-w-7xl mx-auto"
+      className="min-h-[35rem] flex items-center justify-center px-4 py-20 max-w-7xl mx-auto"
       id="home"
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
