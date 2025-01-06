@@ -21,7 +21,7 @@ export function Welcome() {
 
           <div>
             <Button className="bg-[#022623] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
-              Register as Member <ArrowRight className="ml-2" />
+             <a href='https://forms.gle/iJMQKju19zBqiaWb8' target="_blank"> Register as Member  </a>
             </Button>
           </div>
         </div>
