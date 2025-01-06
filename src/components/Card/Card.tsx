@@ -6,7 +6,11 @@ interface CardProps {
   className?: string;
 }
 
+<<<<<<< HEAD
 export function Card({ children, className }: CardProps): JSX.Element {
+=======
+export function Card({ children, className }: CardProps) {
+>>>>>>> 863c7b7825502a3d44ccda8f7c31ebc418b48984
   return (
     <motion.div
       whileHover={{ scale: 1.01 }}
