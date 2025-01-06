@@ -1,6 +1,4 @@
-import { AutoScroll } from "@/components/AutoScroll/AutoScroll";
 import { Speaker } from "@/components/Speaker/Speaker";
-import { motion } from "framer-motion";
 import { speakers } from "../data/speakers";
 
 // Define the type for a speaker
@@ -14,19 +12,14 @@ const Speakers: React.FC = () => {
   return (
     <div className="min-h-[80vh]">
       <section className="py-20 bg-white mt-10" id="speakers">
-        <div className="max-w-6xl mx-auto px-4">
-          {/* Title Animation */}
-          <motion.h2
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-4xl font-bold text-center mb-12 text-[#022623]"
-          >
+        <div className="max-w-6xl mx-auto px-4  flex flex-col justify-center items-center">
+          {/* Title */}
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#022623]">
             Recent Speakers
-          </motion.h2>
+          </h2>
 
-          {/* Speakers AutoScroll */}
-          <AutoScroll className="py-4" direction="right">
+          {/* Grid Layout for Speakers */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 r gap-8  ">
             {speakers.map((speaker: SpeakerType) => (
               <Speaker
                 key={speaker.name}
@@ -35,7 +28,7 @@ const Speakers: React.FC = () => {
                 image={speaker.image}
               />
             ))}
-          </AutoScroll>
+          </div>
         </div>
       </section>
     </div>

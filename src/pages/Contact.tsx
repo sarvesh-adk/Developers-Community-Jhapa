@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -31,24 +30,12 @@ const Contact = () => {
       id="contact"
       className="py-20 bg-white text-black mb-32 justify-center items-center mt-20"
     >
-      <div className="max-w-6xl mx-auto px-4">
-        <motion.h2
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="text-4xl font-bold text-center mb-12"
-        >
-          Contact Us
-        </motion.h2>
+      <div className="max-w-6xl md:mx-auto  border p-11 px-20 pb-28 rounded-lg mx-4 ">
+        <h2 className="text-4xl font-bold text-center mb-12">Contact Us</h2>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12  ">
           {/* Contact Information */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="space-y-6"
-          >
+          <div className="space-y-6  p-12">
             <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
 
             <div className="flex items-center space-x-4">
@@ -95,16 +82,10 @@ const Contact = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>
-          </motion.div>
+          </div>
 
           {/* Contact Form */}
-          <motion.form
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            onSubmit={handleSubmit(onSubmit)}
-            className="space-y-6"
-          >
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 ">
             <Input
               {...register("name")}
               placeholder="Your Name"
@@ -125,7 +106,7 @@ const Contact = () => {
             <Button className="w-full bg-black text-white hover:bg-gray-800">
               Send Message
             </Button>
-          </motion.form>
+          </form>
         </div>
       </div>
     </section>

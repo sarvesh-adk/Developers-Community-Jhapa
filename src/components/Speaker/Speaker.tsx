@@ -1,5 +1,4 @@
 import { Card } from "../Card/Card";
-import { motion } from "framer-motion";
 
 interface SpeakerProps {
   name: string;
@@ -9,19 +8,15 @@ interface SpeakerProps {
 
 export function Speaker({ name, role, image }: SpeakerProps) {
   return (
-    <Card className="w-[300px] mx-4">
-      <motion.img
-        whileHover={{ scale: 1.01 }}
+    <Card className="w-[270px] mx-4 shadow-sm ">
+      <img
         src={image}
         alt={name}
         className="w-full h-48 object-cover rounded-lg mb-4"
       />
-      <motion.h3
-        className="text-xl font-bold font-montserrat text-[#1f1f1f] mb-2"
-        whileHover={{ scale: 1.01 }}
-      >
+      <h3 className="text-xl font-bold font-montserrat text-[#1f1f1f] mb-2">
         {name}
-      </motion.h3>
+      </h3>
       <p className="text-[#575757] font-roboto font-light">{role}</p>
     </Card>
   );
