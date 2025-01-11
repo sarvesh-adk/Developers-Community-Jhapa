@@ -29,7 +29,7 @@ export function Navbar() {
                 alt="Developer Community of Jhapa Logo"
               />
               <div className="flex flex-col">
-                <span className="text-xl font-semibold text-[#022623] dark:text-white">
+                <span className="text-nowrap text-sm md:text-xl font-semibold text-[#022623] dark:text-white">
                   Developer Community of Jhapa
                 </span>
                 <span className="text-sm text-[#575757] dark:text-gray-300">

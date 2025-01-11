@@ -27,6 +27,16 @@ export default function App() {
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/contact" element={<Contact />} />
+
+        {/* Add more routes here */}
+        <Route
+          path="*"
+          element={
+            <div className="min-h-[50rem] flex items-center justify-center">
+              404 Not Found
+            </div>
+          }
+        />
       </Routes>
       <Footer />
     </div>

@@ -28,14 +28,14 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-white text-black mb-32 justify-center items-center mt-20"
+      className="py-20 bg-white text-black justify-center items-center mt-20"
     >
-      <div className="max-w-6xl md:mx-auto  border p-11 px-20 pb-28 rounded-lg mx-4 ">
+      <div className="max-w-6xl md:mx-auto flex flex-col  justify-center items-center  p-11 px-20 pb-28 rounded-lg mx-4 ">
         <h2 className="text-4xl font-bold text-center mb-12">Contact Us</h2>
 
         <div className="grid md:grid-cols-2 gap-12  ">
           {/* Contact Information */}
-          <div className="space-y-6  p-12">
+          <div className="space-y-6  p-12 border rounded-xl">
             <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
 
             <div className="flex items-center space-x-4">
@@ -85,7 +85,10 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 ">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="space-y-6 p-12 border rounded-xl"
+          >
             <Input
               {...register("name")}
               placeholder="Your Name"
