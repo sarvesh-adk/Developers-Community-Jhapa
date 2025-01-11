@@ -16,13 +16,13 @@ interface Executive {
 
 export function ExecutiveTeam() {
   return (
-    <section id="team" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4">
+    <section id="team" className=" bg-white">
+      <div className="max-w-7xl mx-auto px-4 pb-20">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold text-center mb-12 text-[#022623] dark:text-white"
+          className="text-2xl md:text-4xl  font-bold text-center mb-12 text-[#022623] dark:text-white line-clamp-1 "
         >
           Our Executive Team
         </motion.h2>

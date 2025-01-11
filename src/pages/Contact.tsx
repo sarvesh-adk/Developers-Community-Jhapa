@@ -28,10 +28,12 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-white text-black justify-center items-center mt-20"
+      className=" bg-white text-black justify-center items-center "
     >
       <div className="max-w-6xl md:mx-auto flex flex-col  justify-center items-center  p-11 px-20 pb-28 rounded-lg mx-4 ">
-        <h2 className="text-4xl font-bold text-center mb-12">Contact Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 line-clamp-1 text-nowrap">
+          Contact Us
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-12  ">
           {/* Contact Information */}

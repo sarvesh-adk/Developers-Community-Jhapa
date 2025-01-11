@@ -25,11 +25,11 @@ export function Navbar() {
             <div className="flex items-center space-x-4">
               <img
                 src={logo}
-                className="h-20 w-auto"
+                className="h-24 md:h-32 ml-5 md:ml-0 w-auto"
                 alt="Developer Community of Jhapa Logo"
               />
-              <div className="flex flex-col">
-                <span className="text-nowrap text-sm md:text-xl font-semibold text-[#022623] dark:text-white">
+              <div className=" flex-col hidden md:flex">
+                <span className="text-nowrap text-2xl font-semibold text-[#022623] dark:text-white">
                   Developer Community of Jhapa
                 </span>
                 <span className="text-sm text-[#575757] dark:text-gray-300">
@@ -62,9 +62,9 @@ export function Navbar() {
               aria-label="Toggle mobile menu"
             >
               {isMenuOpen ? (
-                <X className="h-5 w-5" />
+                <X className="h-8 w-8" />
               ) : (
-                <Menu className="h-5 w-5" />
+                <Menu className="h-8 w-8" />
               )}
             </Button>
           </div>

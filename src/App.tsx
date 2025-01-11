@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Speakers from "./pages/Speakers";
 import Partners from "./pages/Partners";
 import Contact from "./pages/Contact";
+import SubBar from "./components/SubBar/SubBar";
 
 export default function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <Navbar />
+      <SubBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Teams />} />

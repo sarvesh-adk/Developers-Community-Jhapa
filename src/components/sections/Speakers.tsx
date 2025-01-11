@@ -31,7 +31,7 @@ export function Speakers() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold text-center mb-12 text-[#022623]"
+          className="text-2xl md:text-4xl font-bold text-center mb-12 text-[#022623]"
         >
           Recent Speakers
         </motion.h2>

@@ -1,11 +1,10 @@
-import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "../../assets/logo/logo.png";
 
 export function Welcome() {
   return (
     <section
-      className=" flex items-center justify-center pt-32 md:pt-60  py-20 max-w-7xl mx-auto "
+      className=" flex items-center justify-center   py-20 max-w-7xl mx-auto "
       id="home"
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
@@ -21,7 +20,10 @@ export function Welcome() {
 
           <div>
             <Button className="bg-[#022623] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
-             <a href='https://forms.gle/iJMQKju19zBqiaWb8' target="_blank"> Register as Member  </a>
+              <a href="https://forms.gle/iJMQKju19zBqiaWb8" target="_blank">
+                {" "}
+                Register as Member{" "}
+              </a>
             </Button>
           </div>
         </div>

@@ -12,13 +12,13 @@ const partners = [
 
 export function Partners() {
   return (
-    <section className="py-20 bg-white" id="partners">
+    <section className="mt-10 bg-white" id="partners">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold text-center mb-12 text-[#022623]"
+          className="text-2xl md:text-4xl  font-bold text-center mb-12 text-[#022623]"
         >
           Community Partners
         </motion.h2>

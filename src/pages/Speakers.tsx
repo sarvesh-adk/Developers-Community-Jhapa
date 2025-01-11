@@ -11,7 +11,7 @@ interface SpeakerType {
 const Speakers: React.FC = () => {
   return (
     <div className="min-h-[80vh]">
-      <section className="py-20 bg-white mt-10" id="speakers">
+      <section className=" pb-20 bg-white mt-10" id="speakers">
         <div className="max-w-6xl mx-auto px-4  flex flex-col justify-center items-center">
           {/* Title */}
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#022623]">

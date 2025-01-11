@@ -12,12 +12,12 @@ const partners = [
 const Partners = () => {
   return (
     <div>
-      <section className="py-20 bg-white min-h-[80vh] mt-16" id="partners">
+      <section className="mt-10 pb-20 bg-white min-h-[60vh] " id="partners">
         <div className="max-w-6xl mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="text-4xl font-bold text-center mb-12 text-[#022623]"
+            className="text-3xl font-bold text-center mb-12 text-[#022623] text-nowrap"
           >
             Community Partners
           </motion.h2>
@@ -29,7 +29,7 @@ const Partners = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="text-center"
               >
-                <Card className="p-6 w-[600px] mx-auto">
+                <Card className="p-6 w-[260px] mx-auto">
                   <img
                     src={partner.logo}
                     alt={partner.name}
