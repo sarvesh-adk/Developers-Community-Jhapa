@@ -4,6 +4,12 @@ import { Speaker } from "@/components/Speaker/Speaker";
 
 const speakers = [
   {
+    name: "Saroj Dahal",
+    role: "Software Engineer | Founder & CTO @ 28 Softwares | Content Creator",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQFpIxeEe4dDkA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1708341134622?e=1743033600&v=beta&t=3oFTfo0cpmo9StrNs4EEm2O5zAccZdpeL9F-f51Y1pU",
+  },
+  {
     name: "Swikar Sharma",
     role: "Software Engineer | TEDx Speaker | Content Creator",
     image:
