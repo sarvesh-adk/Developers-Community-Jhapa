@@ -3,6 +3,11 @@ import SiddharthaGhimire from "@/assets/speakers/SiddharthaGhimire.jpg";
 import ArjunTiwari from "@/assets/speakers/ArjunTiwari.png";
 export const speakers = [
   {
+    name: "saroj Dahal",
+    role: "Software Engineer | Founder & CTO @ 23Softwares | Content Creator",
+    image:Siwakar
+  },
+  {
     name: "Swikar Sharma",
     role: "Software Engineer | TEDx Speaker | Content Creator",
     image:Siwakar
