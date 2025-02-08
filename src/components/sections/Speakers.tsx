@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { AutoScroll } from "@/components/AutoScroll/AutoScroll";
-import { Speaker } from "@/components/Speaker/Speaker";
+import { Speaker } from "@/components/Speaker/SpeakerCard";
 
 const speakers = [
   {
