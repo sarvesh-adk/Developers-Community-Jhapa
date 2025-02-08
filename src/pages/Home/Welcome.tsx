@@ -11,10 +11,10 @@ export function Welcome() {
         {/* Left Section */}
         <div className="flex flex-col items-start space-y-4 w-full md:w-2/3 px-6 md:px-10">
           <h1 className="text-3xl md:text-4xl font-bold text-[#022623] leading-tight">
-            Developers Community of Jhapa
+            Developers Association Jhapa
           </h1>
           <p className="text-base sm:text-lg md:text-lg text-gray-600 max-w-xl text-justify ">
-            Join Jhapa’s largest tech community. Collaborate, innovate, and grow
+            Join Jhapa’s largest tech association. Collaborate, innovate, and grow
             with developers, designers, and tech enthusiasts.
           </p>
 
