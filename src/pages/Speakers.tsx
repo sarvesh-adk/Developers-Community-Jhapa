@@ -10,12 +10,11 @@ interface SpeakerType {
   github: string;
   facebook: string;
   instagram: string;
-  
 }
 
 const Speakers: React.FC = () => {
   return (
-    <div className="min-h-[80vh]  ">
+    <div className="container mx-auto mt-10 px-4 sm:px-6 max-w-7xl ">
       <section className=" pb-20  mt-10 " id="speakers">
         <div className="max-w-7xl mx-auto   flex flex-col justify-center items-center">
           {/* Title */}
@@ -25,16 +24,21 @@ const Speakers: React.FC = () => {
 
           {/* Grid Layout for Speakers */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-8  w-full max-w-7xl mx-auto px-5 ">
-            {speakers.map((speaker: SpeakerType) => (
+            {speakers.map((speaker: SpeakerType, index) => (
               <Speaker
-                key={speaker.name}
+                key={index}
                 name={speaker.name}
                 role={speaker.role}
                 image={speaker.image}
-                linkedin={speaker.linkedin}
-                github={speaker.github}
-                facebook={speaker.facebook}
-                instagram={speaker.instagram}
+                social={{
+                  linkedin:
+                    speaker.linkedin !== "#" ? speaker.linkedin : undefined,
+                  github: speaker.github !== "#" ? speaker.github : undefined,
+                  facebook:
+                    speaker.facebook !== "#" ? speaker.facebook : undefined,
+                  instagram:
+                    speaker.instagram !== "#" ? speaker.instagram : undefined,
+                }}
               />
             ))}
           </div>
