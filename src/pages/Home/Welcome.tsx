@@ -19,7 +19,7 @@ export function Welcome() {
           </p>
 
           <div>
-            <Button className="bg-[#022623] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
+            <Button className="bg-[#e22323] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
               <a href="https://forms.gle/iJMQKju19zBqiaWb8" target="_blank">
                 {" "}
                 Register as Member{" "}
