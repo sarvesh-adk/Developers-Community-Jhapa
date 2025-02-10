@@ -14,12 +14,11 @@ export function Welcome() {
             Developers Association Jhapa
           </h1>
           <p className="text-base sm:text-lg md:text-lg text-gray-600 max-w-xl text-justify ">
-            Join Jhapa’s largest tech association. Collaborate, innovate, and grow
-            with developers, designers, and tech enthusiasts.
+          Developers Association Jhapa is an autonomous, non-profitable, non-political, service-oriented social organization established by the young energetic students in 2024 to act as a bridge between the students, and IT industries in Nepal.
           </p>
 
           <div>
-            <Button className="bg-[#e22323] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
+            <Button className="bg-[#dc0404] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
               <a href="https://forms.gle/iJMQKju19zBqiaWb8" target="_blank">
                 {" "}
                 Register as Member{" "}

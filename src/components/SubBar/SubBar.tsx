@@ -4,7 +4,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const SubBar = () => {
   return (
-    <div className="h-6 mt-24 md:mt-32 bg-black text-white text-xs">
+    
+/*no need of subbar bcz it ruined the design*/
+
+    <div className="h-2 mt-24 md:mt-32 bg-red text-white text-xs">
       <div className="max-w-7xl px-5 md:px-11 mx-auto flex justify-between items-center h-full">
         {/* left div*/}
         <div className="flex gap-4">
@@ -22,7 +25,7 @@ const SubBar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Developer Community of Jhapa
+                Developer Association Jhapa
               </a>
             </span>
           </div>
