@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             />
             <div className="flex flex-col text-left">
               <span className="text-xl font-semibold text-[#022623] dark:text-white">
-                Developer Community of Jhapa
+                Developer Association Jhapa
               </span>
               <span className="text-sm text-[#575757] dark:text-gray-300">
                Code • Create • Connect
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
 
           {/* Copyright Info */}
           <div className="text-sm font-normal text-[#575757] dark:text-gray-300">
-            © {currentYear} Developer Community of Jhapa. <br />
+            © {currentYear} Developer Association Jhapa. <br />
             All rights reserved.
           </div>
         </div>

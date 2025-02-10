@@ -30,7 +30,7 @@ export function Navbar() {
               />
               <div className=" flex-col hidden md:flex">
                 <span className="text-nowrap text-2xl font-semibold text-[#022623] dark:text-white">
-                  Developers Community of Jhapa
+                  Developers Association Jhapa
                 </span>
                 <span className="text-sm text-[#575757] dark:text-gray-300">
                   Code • Create • Connect
