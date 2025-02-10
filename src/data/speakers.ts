@@ -7,7 +7,7 @@ import Bhaskar from "@/assets/speakers/bhaskar.jpg";
 export const speakers = [
   {
     name: "Bhaskar Rijal",
-    role: "CEO & Founder at LinkBinary",
+    role: "CEO & Founder at LinkBinary & QuickPasal",
     image: Bhaskar,
     linkedin: "https://www.linkedin.com/in/bhaskarrijal",
     github: "https://github.com/bhaskarrijal",
@@ -16,7 +16,7 @@ export const speakers = [
   },
   {
     name: "Er. Saroj Dahal",
-    role: "Software Engineer | Content Creator | Founder & CEO of 28 Softwares",
+    role: "Software Engineer | Content Creator | Founder & CTO at 28 Softwares",
     image: Saroj,
     linkedin: "https://www.linkedin.com/in/isarojdahal/",
     github: "#",
