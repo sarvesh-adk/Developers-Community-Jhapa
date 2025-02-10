@@ -18,6 +18,7 @@ const Speakers: React.FC = () => {
       <section className="pb-20 mt-10" id="speakers">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           {/* Title */}
+          
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#022623]">
             Recent Speakers
           </h2>

@@ -18,7 +18,7 @@ export function Welcome() {
           </p>
 
           <div>
-            <Button className="bg-[#dc0404] hover:bg-[#033835] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
+            <Button className="bg-[#dc0404] hover:bg-[#f04044] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
               <a href="https://forms.gle/iJMQKju19zBqiaWb8" target="_blank">
                 {" "}
                 Register as Member{" "}
@@ -31,7 +31,7 @@ export function Welcome() {
         <div className="hidden md:flex items-center justify-center flex-1 w-full md:w-1/3">
           <img
             src={logo}
-            alt="Developer Community Jhapa Logo"
+            alt="Developer Association Jhapa Logo"
             className="h-64 sm:h-80 w-auto"
           />
         </div>

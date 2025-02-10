@@ -48,7 +48,7 @@ export function SpeakerCard({ name, role, image, linkedin, github, facebook, ins
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black hover:text-gray-600"
+              className="text-black hover:text-red-600"
               whileHover={{ scale: 1.1 }}
               aria-label={label}
             >
