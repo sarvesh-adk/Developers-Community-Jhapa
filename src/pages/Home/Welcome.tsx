@@ -14,7 +14,7 @@ export function Welcome() {
             Developers Association Jhapa
           </h1>
           <p className="text-base sm:text-lg md:text-lg text-gray-600 max-w-xl text-justify ">
-          Developers Association Jhapa is an autonomous, non-profitable, non-political, service-oriented social organization established by the young energetic students in 2024 to act as a bridge between the students, and IT industries in Nepal.
+          Developers Association Jhapa is an autonomous, non-profitable, non-government, non-political, service-oriented social organization established by the young energetic students in 2024 to act as a bridge between the students, and IT industries in Nepal.
           </p>
 
           <div>
