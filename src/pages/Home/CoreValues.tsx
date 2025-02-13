@@ -5,7 +5,7 @@ const CoreValues: React.FC = () => {
     {
       title: "Unity",
       description:
-        "At Developer Community of Jhapa, we foster an inclusive space where B.Sc. CSIT students collaborate and grow together.",
+        "At Developer Community of Jhapa, we foster an inclusive space where IT students collaborate and grow together.",
       image: "/path/to/unity-image.jpg", // Replace with actual image path
     },
     {

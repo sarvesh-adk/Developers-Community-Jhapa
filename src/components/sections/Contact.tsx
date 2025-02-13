@@ -116,7 +116,7 @@ export function Contact() {
               className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
               rows={5}
             />
-            <Button className="w-full bg-red text-[#dc0404] hover:bg-#dc0404">
+            <Button className="w-full bg-red text-white hover:bg-#dc0404">
               Send Message
             </Button>
           </motion.form>

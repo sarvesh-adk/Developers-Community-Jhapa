@@ -108,7 +108,7 @@ const Contact = () => {
               className="bg-gray-100 border-gray-300 text-black placeholder:text-gray-500"
               rows={5}
             />
-            <Button className="w-full bg-black text-white hover:bg-gray-800">
+            <Button className="w-full bg-[#dc0404] text-white hover:bg-red-400">
               Send Message
             </Button>
           </form>

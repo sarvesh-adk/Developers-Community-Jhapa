@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { AutoScroll } from "@/components/AutoScroll/AutoScroll";
-import { Speaker } from "@/components/Speaker/SpeakerCard";
+import { SpeakerCard } from "@/components/Speaker/SpeakerCard";
 
 const speakers = [
   {
@@ -43,7 +43,7 @@ export function Speakers() {
         </motion.h2>
         <AutoScroll className="py-4" direction="right">
           {speakers.map((speaker) => (
-            <Speaker
+            <SpeakerCard
               key={speaker.name}
               name={speaker.name}
               role={speaker.role}
