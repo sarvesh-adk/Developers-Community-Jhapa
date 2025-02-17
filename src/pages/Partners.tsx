@@ -25,7 +25,7 @@ const Partners = () => {
             whileInView={{ opacity: 1 }}
             className="text-3xl font-bold text-center mb-12 text-[#022623] text-nowrap"
           >
-            Community Partners
+            Our Partners
           </motion.h2>
           <div className="grid gap-8">
             {partners.map((partner) => (
