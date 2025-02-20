@@ -42,12 +42,12 @@ const Contact = () => {
 
             <div className="flex items-center space-x-4">
               <MapPin className="h-5 w-5" />
-              <p>Mechinagar, Jhapa, Nepal</p>
+              <p>Mechinagar-10, Jhapa, Nepal</p>
             </div>
 
             <div className="flex items-center space-x-4">
               <Phone className="h-5 w-5" />
-              <p>+977 9807941122</p>
+              <p>+977 9828284683 (Secretariat)</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -56,14 +56,14 @@ const Contact = () => {
                 href="https://jhapa-dev.vercel.app"
                 className="hover:underline"
               >
-                jhapa.dev
+                daj.org.np
               </a>
             </div>
 
             <div className="flex items-center space-x-4">
               <Mail className="h-5 w-5" />
               <a href="mailto:mail@jhapa.dev" className="hover:underline">
-                mail@jhapa.dev
+                mail@daj.org.np
               </a>
             </div>
 
