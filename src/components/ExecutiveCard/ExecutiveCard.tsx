@@ -11,6 +11,7 @@ interface ExecutiveCardProps {
     linkedin?: string;
     twitter?: string;
   };
+  onClick?: () => void;
 }
 
 export function ExecutiveCard({
@@ -18,9 +19,10 @@ export function ExecutiveCard({
   role,
   image,
   social,
+  onClick
 }: ExecutiveCardProps) {
   return (
-    <Card className="w-[280px] mx-4 text-center">
+    <Card className="w-[280px] mx-4 text-center" onClick={onClick}>
       {/* Profile Image */}
       <motion.img
         src={image}
