@@ -1,6 +1,4 @@
 // executivesData.js
-import bhaskar from "@/assets/members/bhaskar.jpg";
-import arjun from "@/assets/members/arjun.jpg";
 import sarvesh from "@/assets/members/sarvesh.jpg";
 import prabin from "@/assets/members/prabin.png";
 import kaushal from "@/assets/members/kaushal.jpg";
