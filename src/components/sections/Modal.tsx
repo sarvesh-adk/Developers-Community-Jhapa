@@ -53,7 +53,7 @@ export function Modal({ executive, closeModal }: ModalProps) {
           </Chip>
           <Typography level="title-lg">{executive.name}</Typography>
           <Typography level="body-sm" sx={{ maxWidth: '24ch' }}>
-            {executive.bio}
+          {executive.bio}
           </Typography>
           <Box
             sx={{
