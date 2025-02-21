@@ -1,8 +1,6 @@
-
+import React from 'react';
 import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter } from "lucide-react";
-
-
 import Avatar from '@mui/joy/Avatar';
 import Chip from '@mui/joy/Chip';
 import Box from '@mui/joy/Box';
