@@ -12,7 +12,6 @@ import CardOverflow from '@mui/joy/CardOverflow';
 import CardActions from '@mui/joy/CardActions';
 import Typography from '@mui/joy/Typography';
 
-
 interface ModalProps {
   executive: {
     name: string;
@@ -50,7 +49,7 @@ export function Modal({ executive, closeModal }: ModalProps) {
           </Chip>
           <Typography level="title-lg">{executive.name}</Typography>
           <Typography level="body-sm" sx={{ maxWidth: '24ch' }}>
-          {executive.bio}
+            {executive.bio}
           </Typography>
           <Box
             sx={{
@@ -61,38 +60,38 @@ export function Modal({ executive, closeModal }: ModalProps) {
             }}
           >
             {executive.social.github && (
-          <motion.a
-            href={executive.social.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#575757] hover:text-[#1f1f1f]"
-            whileHover={{ scale: 1.1 }}
-          >
-            <Github size={18} />
-          </motion.a>
-        )}
-        {executive.social.linkedin && (
-          <motion.a
-            href={executive.social.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#575757] hover:text-[#1f1f1f]"
-            whileHover={{ scale: 1.1 }}
-          >
-            <Linkedin size={18} />
-          </motion.a>
-        )}
-        {executive.social.twitter && (
-          <motion.a
-            href={executive.social.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#575757] hover:text-[#1f1f1f]"
-            whileHover={{ scale: 1.1 }}
-          >
-            <Twitter size={18} />
-          </motion.a>
-        )}
+              <motion.a
+                href={executive.social.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#575757] hover:text-[#1f1f1f]"
+                whileHover={{ scale: 1.1 }}
+              >
+                <Github size={18} />
+              </motion.a>
+            )}
+            {executive.social.linkedin && (
+              <motion.a
+                href={executive.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#575757] hover:text-[#1f1f1f]"
+                whileHover={{ scale: 1.1 }}
+              >
+                <Linkedin size={18} />
+              </motion.a>
+            )}
+            {executive.social.twitter && (
+              <motion.a
+                href={executive.social.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#575757] hover:text-[#1f1f1f]"
+                whileHover={{ scale: 1.1 }}
+              >
+                <Twitter size={18} />
+              </motion.a>
+            )}
           </Box>
         </CardContent>
         <CardOverflow sx={{ bgcolor: 'background.level1' }}>
