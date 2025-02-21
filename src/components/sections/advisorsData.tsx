@@ -5,6 +5,7 @@ export const advisors = [
       name: "Bhaskar Rijal",
       role: "Advisor",
       image: bhaskar,
+      bio: "",
       social: {
         linkedin: "https://www.linkedin.com/in/bhaskarrijal/",
         twitter: "https://x.com/bhaskarrijal",
@@ -15,6 +16,7 @@ export const advisors = [
       name: "Arjun Tiwari",
       role: "Advisor",
       image: arjun,
+      bio: "",
       social: { linkedin: "#", twitter: "#", github: "#" },
     },
 ];
