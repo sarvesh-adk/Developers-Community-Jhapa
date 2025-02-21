@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import Avatar from '@mui/joy/Avatar';
@@ -30,7 +29,7 @@ interface ModalProps {
 
 export function Modal({ executive, closeModal }: ModalProps) {
   return (
-    <div className="fixed inset-0 bg-opacity-50 backdrop-blur-sm flex items-center justify-center z-50 bg-gray-800 bg-opacity-50">
+    <div className="fixed inset-0 backdrop-blur-sm flex items-center justify-center z-50 bg-gray-800 bg-opacity-50">
       <Card sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
         <CardContent sx={{ alignItems: 'center', textAlign: 'center' }}>
           <Avatar src={executive.image} sx={{ '--Avatar-size': '4rem' }} />
