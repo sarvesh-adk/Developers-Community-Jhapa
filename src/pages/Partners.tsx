@@ -15,7 +15,7 @@ const Partners = () => {
           >
             Our Partners
           </motion.h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full px-5">
+          <div className="md:flex  justify-center grid  gap-10 w-full px-5">
             {partners.map((partner) => (
               <motion.div
                 key={partner.name}

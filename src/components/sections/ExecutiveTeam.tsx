@@ -33,7 +33,7 @@ export function ExecutiveTeam() {
     <>
       {selectedExecutive && <Modal executive={selectedExecutive} closeModal={closeModal} />}
       <section id="team" className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 pb-20">
+        <div className="max-w-7xl mx-auto md:px-4 px-9 pb-20">
           <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -55,7 +55,7 @@ export function ExecutiveTeam() {
             ))}
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 pb-20">
+        <div className="max-w-7xl mx-auto md:px-4 px-9 pb-20">
           <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
