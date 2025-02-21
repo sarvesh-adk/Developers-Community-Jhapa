@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import logo from "../../assets/logo/logo.png";
+import { Link } from "react-router-dom";
+import Form from "./Form";
+
 
 export function Welcome() {
   return (
@@ -19,10 +22,10 @@ export function Welcome() {
 
           <div>
             <Button className="bg-[#dc0404] hover:bg-[#f04044] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
-              <a href="https://forms.gle/iJMQKju19zBqiaWb8" target="_blank">
+              <Link to="https://forms.gle/yydEuns3ieiBVbhw9" target="_blank">
                 {" "}
                 Register as Member{" "}
-              </a>
+              </Link>
             </Button>
           </div>
         </div>

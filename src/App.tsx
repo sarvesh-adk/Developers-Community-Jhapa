@@ -8,6 +8,7 @@ import Speakers from "./pages/Speakers";
 import Partners from "./pages/Partners";
 import Contact from "./pages/Contact";
 import SubBar from "./components/SubBar/SubBar";
+import Form from "./pages/Home/Form";
 
 export default function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/form" element={<Form />} />
 
         {/* Add more routes here */}
         <Route

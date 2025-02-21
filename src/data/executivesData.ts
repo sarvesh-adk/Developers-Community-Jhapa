@@ -21,6 +21,7 @@ export const executives = [
     image: awashar,
     social:
       { linkedin: "#", twitter: "#", github: "#" },
+      bio: "Awashar Poudel is a passionate developer and a tech enthusiast. He is a "
   },
   {
     name: "Padam Prasad Dhakal",
