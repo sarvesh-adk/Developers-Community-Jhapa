@@ -12,9 +12,8 @@ import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import CardOverflow from '@mui/joy/CardOverflow';
 import CardActions from '@mui/joy/CardActions';
-import IconButton from '@mui/joy/IconButton';
 import Typography from '@mui/joy/Typography';
-import SvgIcon from '@mui/joy/SvgIcon';
+
 
 interface ModalProps {
   executive: {
