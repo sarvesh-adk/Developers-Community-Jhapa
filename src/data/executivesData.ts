@@ -22,7 +22,6 @@ export const executives = [
     bio: "",
     social:
       { linkedin: "#", twitter: "#", github: "#" },
-      bio: "Awashar Poudel is a passionate developer and a tech enthusiast. He is a "
   },
   {
     name: "Padam Prasad Dhakal",
