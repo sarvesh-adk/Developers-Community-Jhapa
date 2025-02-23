@@ -1,24 +1,26 @@
 import { motion } from "framer-motion";
-
+import unity from "@/assets/welcome/Unity.jpg";
+import collab from "@/assets/welcome/Collab.jpg";
+import creativity from "@/assets/welcome/Creativity.jpg";
 const CoreValues: React.FC = () => {
   const values = [
     {
       title: "Unity",
       description:
-        "At Developer Community of Jhapa, we foster an inclusive space where IT students collaborate and grow together.",
-      image: "/path/to/unity-image.jpg", // Replace with actual image path
+        "At Developer Association Jhapa, we foster an inclusive space where IT students collaborate and grow together.",
+      image: unity,
     },
     {
       title: "Collaboration",
       description:
         "We believe in the strength of teamwork, where sharing knowledge and ideas unlocks limitless potential.",
-      image: "/path/to/collaboration-image.jpg", // Replace with actual image path
+      image: collab,
     },
     {
       title: "Creativity",
       description:
         "Innovation thrives in our community, with hackathons and projects that encourage pushing the boundaries of technology.",
-      image: "/path/to/creativity-image.jpg", // Replace with actual image path
+      image: creativity,
     },
   ];
 
@@ -29,7 +31,7 @@ const CoreValues: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-semibold text-[#022623] mb-5 text-left px-4"
+          className="text-4xl font-semibold text-[#022623] mb-5 text-center px-4"
         >
           Our Core Values
         </motion.h2>
