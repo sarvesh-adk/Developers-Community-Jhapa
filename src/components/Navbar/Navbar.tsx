@@ -36,6 +36,10 @@ export function Navbar() {
                   Code • Create • Connect
                 </span>
               </div>
+              <span title="The site is currently under active development and testing. We apologize for errors like broken link and empty pages."
+               className="inline-block px-2 py-1 text-xs font-bold leading-none text-black-800 uppercase bg-orange-200 rounded ring-1 ring-red-800"> 
+                BETA
+              </span>
             </div>
           </Link>
 
