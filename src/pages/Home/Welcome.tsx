@@ -21,7 +21,7 @@ export function Welcome() {
           </p>
 
           <div>
-            <Button className="bg-[#dc04np04] hover:bg-[#f04044] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
+            <Button className="bg-[#dc0404] hover:bg-[#f04044] text-white px-6 py-4 sm:px-8 sm:py-6 text-sm sm:text-lg rounded-xl">
               <Link to="https://forms.gle/yydEuns3ieiBVbhw9" target="_blank">
                 {" "}
                 Register as Member{" "}
